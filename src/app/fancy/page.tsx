@@ -1,50 +1,65 @@
-"use client";
+import Link from "next/link";
 
-import Gravity, {
-  MatterBody,
-} from "@/components/fancy/physics/gravity";
-
-const items = [
-  { emoji: "🪨", x: "15%", y: "5%", size: "text-5xl" },
-  { emoji: "🔮", x: "35%", y: "10%", size: "text-6xl" },
-  { emoji: "⚡", x: "55%", y: "3%", size: "text-5xl" },
-  { emoji: "🌀", x: "75%", y: "8%", size: "text-6xl" },
-  { emoji: "💎", x: "25%", y: "15%", size: "text-4xl" },
-  { emoji: "🧲", x: "65%", y: "12%", size: "text-5xl" },
-  { emoji: "🪐", x: "45%", y: "2%", size: "text-6xl" },
-  { emoji: "🌕", x: "85%", y: "6%", size: "text-5xl" },
+const components = [
+  {
+    slug: "gravity",
+    name: "Gravity",
+    category: "Physics",
+    engine: "Matter.js",
+    description: "Physics simulation with configurable gravity, friction, and restitution. Drop anything.",
+  },
+  {
+    slug: "variable-font",
+    name: "Variable Font Cursor Proximity",
+    category: "Text",
+    engine: "Motion",
+    description: "Variable font weight shifts based on cursor distance. Three falloff modes: linear, gaussian, exponential.",
+  },
 ];
 
-export default function FancyPage() {
+export default function FancyIndex() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
-      <Gravity gravity={{ x: 0, y: 1 }} className="w-full h-full">
-        {items.map((item, i) => (
-          <MatterBody
-            key={i}
-            x={item.x}
-            y={item.y}
-            matterBodyOptions={{
-              friction: 0.3,
-              restitution: 0.6,
-              density: 0.002,
-            }}
-          >
-            <span className={`${item.size} select-none block`}>
-              {item.emoji}
-            </span>
-          </MatterBody>
-        ))}
-      </Gravity>
+    <div className="min-h-screen bg-[#09090b] text-white">
+      <div className="max-w-4xl mx-auto px-6 py-24">
+        <Link href="/" className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors mb-8 inline-block">
+          &larr; All Libraries
+        </Link>
 
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white mb-3">
-            Gravity
-          </h1>
-          <p className="text-sm font-medium tracking-[0.2em] uppercase text-white/50">
+        <div className="mb-12">
+          <p className="text-sm font-medium tracking-[0.2em] uppercase text-emerald-400 mb-3">
             Fancy Components
           </p>
+          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-2">
+            40+ components
+          </h1>
+          <p className="text-neutral-400">
+            Physics interactions, SVG path animations, variable fonts. 100% free.
+          </p>
+        </div>
+
+        <div className="grid gap-3">
+          {components.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/fancy/${c.slug}`}
+              className="group border border-emerald-500/10 rounded-xl p-5 transition-all hover:bg-emerald-500/[0.04] hover:border-emerald-500/20"
+            >
+              <div className="flex items-center justify-between mb-1.5">
+                <h2 className="text-lg font-medium text-white group-hover:text-emerald-300 transition-colors">
+                  {c.name}
+                </h2>
+                <div className="flex gap-2">
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-neutral-500">
+                    {c.category}
+                  </span>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-neutral-500">
+                    {c.engine}
+                  </span>
+                </div>
+              </div>
+              <p className="text-sm text-neutral-500">{c.description}</p>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

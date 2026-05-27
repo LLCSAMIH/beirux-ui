@@ -1,6 +1,7 @@
 "use client";
 
 import CircularGallery from "@/components/CircularGallery";
+import { BackLink } from "@/components/back-link";
 
 const galleryItems = [
   {
@@ -48,6 +49,7 @@ const galleryItems = [
 export default function CircularGalleryPage() {
   return (
     <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+      <BackLink href="/reactbits" label="ReactBits" />
       <div className="absolute inset-0">
         <CircularGallery
           items={galleryItems}

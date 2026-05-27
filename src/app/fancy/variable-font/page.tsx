@@ -2,13 +2,14 @@
 
 import { useRef } from "react";
 import VariableFontCursorProximity from "@/components/fancy/text/variable-font-cursor-proximity";
+import { BackLink } from "@/components/back-link";
 
 export default function VariableFontPage() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="min-h-screen w-full bg-[#09090b] flex flex-col">
-      {/* Header */}
+      <BackLink href="/fancy" label="Fancy" />
       <div className="pt-16 pb-8 text-center">
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-3">
           Variable Font Cursor Proximity

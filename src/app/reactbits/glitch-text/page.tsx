@@ -1,12 +1,13 @@
 "use client";
 
 import GlitchText from "@/components/GlitchText";
+import { BackLink } from "@/components/back-link";
 
 export default function GlitchTextPage() {
   return (
     <div className="min-h-screen bg-[#09090b] text-white">
+      <BackLink href="/reactbits" label="ReactBits" />
       <div className="max-w-5xl mx-auto px-6 py-24">
-        {/* Header */}
         <div className="text-center mb-20">
           <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 mb-6">
             ReactBits

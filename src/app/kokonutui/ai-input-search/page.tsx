@@ -1,10 +1,12 @@
 "use client";
 
 import AI_Input_Search from "@/components/kokonutui/ai-input-search";
+import { BackLink } from "@/components/back-link";
 
 export default function AIInputSearchPage() {
   return (
     <div className="dark min-h-screen bg-[#09090b]">
+      <BackLink href="/kokonutui" label="KokonutUI" />
       <div className="flex min-h-screen flex-col items-center justify-center px-6">
         <div className="w-full max-w-xl text-center">
           <p className="mb-3 text-sm font-medium tracking-[0.2em] uppercase text-neutral-500">

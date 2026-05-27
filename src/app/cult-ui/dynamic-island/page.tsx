@@ -1,5 +1,6 @@
 "use client"
 
+import { BackLink } from "@/components/back-link"
 import { useState } from "react"
 import {
   DynamicIslandProvider,
@@ -455,6 +456,7 @@ function IslandDemo() {
 export default function DynamicIslandPage() {
   return (
     <div className="dark min-h-screen bg-[#09090b] text-white">
+      <BackLink href="/cult-ui" label="Cult UI" />
       <div className="max-w-3xl mx-auto px-6 py-24">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white mb-3">

@@ -1,6 +1,7 @@
 "use client";
 
 import { MorphicNavbar } from "@/components/kokonutui/morphic-navbar";
+import { BackLink } from "@/components/back-link";
 
 const navItems = {
   "/": { name: "Home" },
@@ -12,6 +13,7 @@ const navItems = {
 export default function MorphicNavbarPage() {
   return (
     <div className="dark min-h-screen bg-[#09090b]">
+      <BackLink href="/kokonutui" label="KokonutUI" />
       {/* Navbar pinned to top */}
       <div className="sticky top-0 z-50 pt-4 pb-2">
         <MorphicNavbar items={navItems} defaultPath="/" />

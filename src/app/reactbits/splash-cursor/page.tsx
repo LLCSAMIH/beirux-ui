@@ -1,10 +1,12 @@
 "use client";
 
 import SplashCursor from "@/components/SplashCursor";
+import { BackLink } from "@/components/back-link";
 
 export default function SplashCursorPage() {
   return (
     <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+      <BackLink href="/reactbits" label="ReactBits" />
       <SplashCursor />
 
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-16 px-6">
