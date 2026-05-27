@@ -29,6 +29,27 @@ const components = [
     engine: "CSS",
     description: "3D perspective card flip on hover with front/back faces and styled-jsx keyframe animation.",
   },
+  {
+    slug: "background-paths",
+    name: "Background Paths",
+    category: "Background",
+    engine: "Motion",
+    description: "Animated SVG paths with gradient strokes flowing across the screen in layered waves.",
+  },
+  {
+    slug: "action-search-bar",
+    name: "Action Search Bar",
+    category: "Navigation",
+    engine: "Motion",
+    description: "Command palette-style search bar with filterable actions, keyboard navigation, and staggered animations.",
+  },
+  {
+    slug: "smooth-tab",
+    name: "Smooth Tab",
+    category: "Navigation",
+    engine: "Motion",
+    description: "Tabbed navigation with spring-animated sliding indicator and directional blur content transitions.",
+  },
 ];
 
 export default function KokonutUIIndex() {

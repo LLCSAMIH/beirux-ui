@@ -36,6 +36,27 @@ const components = [
     engine: "WebGL (OGL)",
     description: "Animated gradient aurora with configurable color stops, amplitude, and speed.",
   },
+  {
+    slug: "hyperspeed",
+    name: "Hyperspeed",
+    category: "Background",
+    engine: "Three.js",
+    description: "WebGL hyperspace travel simulation with 6 distortion presets. Click and hold to speed up.",
+  },
+  {
+    slug: "decrypted-text",
+    name: "Decrypted Text",
+    category: "Text Animation",
+    engine: "Motion",
+    description: "Scramble-to-reveal text effect with sequential/random modes, multiple triggers (hover, click, scroll), and customizable character sets.",
+  },
+  {
+    slug: "tilted-card",
+    name: "Tilted Card",
+    category: "Card",
+    engine: "Motion",
+    description: "Perspective tilt on hover with spring physics, cursor tooltip, and optional overlay content.",
+  },
 ];
 
 export default function ReactBitsIndex() {

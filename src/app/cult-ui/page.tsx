@@ -22,6 +22,27 @@ const components = [
     engine: "Motion",
     description: "Tabs with direction-aware animated indicator and auto-height content transitions.",
   },
+  {
+    slug: "texture-card",
+    name: "Texture Card",
+    category: "Card",
+    engine: "CSS",
+    description: "Theme-aware card with layered gradient borders and subtle texture depth. Header, content, footer, and separator subcomponents.",
+  },
+  {
+    slug: "typewriter",
+    name: "Typewriter",
+    category: "Text",
+    engine: "Motion",
+    description: "Animated typewriter effect with base text, cycling text arrays, and blinking cursor.",
+  },
+  {
+    slug: "logo-carousel",
+    name: "Logo Carousel",
+    category: "Marketing",
+    engine: "Motion",
+    description: "Animated logo grid with staggered column cycling, spring-based blur transitions, and shuffle distribution.",
+  },
 ];
 
 export default function CultUIIndex() {

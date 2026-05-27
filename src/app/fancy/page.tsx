@@ -22,6 +22,27 @@ const components = [
     engine: "Motion",
     description: "SVG line that grabs and stretches toward the cursor, snapping back with spring physics.",
   },
+  {
+    slug: "text-along-path",
+    name: "Text Along Path",
+    category: "Text",
+    engine: "Motion",
+    description: "Animate text flowing along any SVG path. Auto-looping or scroll-driven, with dual-text rendering for seamless closed-path loops.",
+  },
+  {
+    slug: "stacking-cards",
+    name: "Stacking Cards",
+    category: "Blocks",
+    engine: "Motion",
+    description: "Scroll-driven cards that stack with progressive scale reduction, creating layered depth.",
+  },
+  {
+    slug: "cursor-attractor",
+    name: "Cursor Attractor",
+    category: "Physics",
+    engine: "Matter.js",
+    description: "Physics bodies orbit an attractor point and repel from the cursor. Configurable force strength and field radius.",
+  },
 ];
 
 export default function FancyIndex() {
