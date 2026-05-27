@@ -1,0 +1,24 @@
+"use client";
+
+import Silk from "@/components/Silk";
+
+export default function ReactBitsPage() {
+  return (
+    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+      <div className="absolute inset-0">
+        <Silk speed={3} scale={1} color="#7B3FE4" noiseIntensity={1.5} rotation={0} />
+      </div>
+
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white mb-3">
+            Silk
+          </h1>
+          <p className="text-sm font-medium tracking-[0.2em] uppercase text-white/50">
+            ReactBits
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
