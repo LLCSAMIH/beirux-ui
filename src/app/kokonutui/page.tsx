@@ -71,6 +71,34 @@ const components = [
     engine: "Motion",
     description: "Dot grid card where dots repel from the cursor with spring physics. Configurable density and force.",
   },
+  {
+    slug: "beams-background",
+    name: "Beams Background",
+    category: "Background",
+    engine: "Canvas",
+    description: "Animated light beams background with 3 intensity levels and dark mode support.",
+  },
+  {
+    slug: "card-stack",
+    name: "Card Stack",
+    category: "Card",
+    engine: "Motion",
+    description: "Click-to-fan stacked cards with spring animations. Hardcoded payment card data.",
+  },
+  {
+    slug: "flow-field",
+    name: "Flow Field",
+    category: "Background",
+    engine: "Canvas",
+    description: "Particle flow field with 3 color themes (aurora, ember, ocean) and 3 density levels.",
+  },
+  {
+    slug: "ai-voice",
+    name: "AI Voice",
+    category: "AI Pattern",
+    engine: "CSS",
+    description: "Voice recording UI shell with animated waveform bars, timer, and demo auto-loop mode.",
+  },
 ];
 
 export default function KokonutUIIndex() {

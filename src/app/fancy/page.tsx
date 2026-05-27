@@ -64,6 +64,27 @@ const components = [
     engine: "Motion",
     description: "3D rotating box carousel with drag interaction, auto-play, and configurable perspective/direction.",
   },
+  {
+    slug: "pixel-trail",
+    name: "Pixel Trail",
+    category: "Cursor",
+    engine: "CSS",
+    description: "Grid of pixel dots that light up on mouse move and fade out. Configurable size, color, and fade duration.",
+  },
+  {
+    slug: "circular-text",
+    name: "Circular Text",
+    category: "Text",
+    engine: "Motion",
+    description: "Text arranged in a spinning circle with hover behaviors: speed up, slow down, pause, or go bonkers.",
+  },
+  {
+    slug: "marquee",
+    name: "Marquee",
+    category: "Blocks",
+    engine: "Motion",
+    description: "Infinite scrolling marquee with drag, hover slowdown, scroll-aware direction, and vertical mode.",
+  },
 ];
 
 export default function FancyIndex() {

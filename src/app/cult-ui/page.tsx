@@ -64,6 +64,34 @@ const components = [
     engine: "Motion",
     description: "macOS-style dock with magnification on hover, draggable dividers, and bounce-on-click.",
   },
+  {
+    slug: "three-d-carousel",
+    name: "3D Photo Carousel",
+    category: "Carousel",
+    engine: "Motion",
+    description: "Cylindrical 3D carousel with drag interaction, click-to-expand, and spring physics.",
+  },
+  {
+    slug: "gradient-heading",
+    name: "Gradient Heading",
+    category: "Text",
+    engine: "CSS",
+    description: "Gradient text heading with 4 color variants, 9 sizes, and polymorphic rendering via Radix Slot.",
+  },
+  {
+    slug: "bg-animated-fractal-grid",
+    name: "Animated Fractal Dot Grid",
+    category: "Background",
+    engine: "Canvas",
+    description: "Interactive dot grid with mouse-reactive wave distortion, glow effect, and auto-adjusting performance tiers.",
+  },
+  {
+    slug: "cutout-card",
+    name: "Cutout Card",
+    category: "Card",
+    engine: "Motion",
+    description: "Compound card with SVG quarter-circle cutouts, hover-reveal actions, and staggered content animations.",
+  },
 ];
 
 export default function CultUIIndex() {

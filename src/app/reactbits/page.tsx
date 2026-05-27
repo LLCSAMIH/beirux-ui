@@ -78,6 +78,34 @@ const components = [
     engine: "GSAP",
     description: "Gooey blob cursor trail with SVG filter. Configurable shape, color, and physics.",
   },
+  {
+    slug: "magnet",
+    name: "Magnet",
+    category: "Interactive",
+    engine: "CSS",
+    description: "Magnetic pull effect on hover. Element follows cursor within a configurable proximity zone.",
+  },
+  {
+    slug: "star-border",
+    name: "Star Border",
+    category: "Decoration",
+    engine: "CSS",
+    description: "Animated orbiting star dot around a bordered container. Polymorphic element with customizable color and speed.",
+  },
+  {
+    slug: "liquid-chrome",
+    name: "Liquid Chrome",
+    category: "Background",
+    engine: "WebGL (OGL)",
+    description: "Chrome-like metallic liquid shader with interactive mouse ripples. Configurable color, speed, and wave frequency.",
+  },
+  {
+    slug: "infinite-scroll",
+    name: "Infinite Menu",
+    category: "Navigation",
+    engine: "CSS / Motion",
+    description: "Circular 3D menu with infinite scroll interaction. Image items orbit in a cylindrical layout.",
+  },
 ];
 
 export default function ReactBitsIndex() {
