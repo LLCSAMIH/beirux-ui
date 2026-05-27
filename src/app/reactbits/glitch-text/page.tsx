@@ -5,7 +5,7 @@ import { BackLink } from "@/components/back-link";
 
 export default function GlitchTextPage() {
   return (
-    <div className="min-h-screen bg-[#09090b] text-white">
+    <div className="min-h-screen bg-[#18181b] text-white">
       <BackLink href="/reactbits" label="ReactBits" />
       <div className="max-w-5xl mx-auto px-6 py-24">
         <div className="text-center mb-20">
@@ -27,7 +27,7 @@ export default function GlitchTextPage() {
             <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
               Hero (slow, dramatic)
             </h2>
-            <div className="flex items-center justify-center min-h-[280px] rounded-xl border border-white/[0.06] bg-[#09090b]">
+            <div className="flex items-center justify-center min-h-[280px] rounded-xl border border-white/[0.06] bg-[#18181b]">
               <GlitchText speed={1.2} enableShadows={true}>
                 BEIRUX
               </GlitchText>
@@ -43,7 +43,7 @@ export default function GlitchTextPage() {
             <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
               Default speed
             </h2>
-            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#09090b]">
+            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#18181b]">
               <GlitchText speed={0.5} enableShadows={true}>
                 GLITCH
               </GlitchText>
@@ -59,7 +59,7 @@ export default function GlitchTextPage() {
             <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
               Fast (aggressive)
             </h2>
-            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#09090b]">
+            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#18181b]">
               <GlitchText speed={0.2} enableShadows={true}>
                 ERROR
               </GlitchText>
@@ -75,7 +75,7 @@ export default function GlitchTextPage() {
             <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
               No shadows (clean offset)
             </h2>
-            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#09090b]">
+            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#18181b]">
               <GlitchText speed={0.5} enableShadows={false}>
                 CLEAN
               </GlitchText>
@@ -91,7 +91,7 @@ export default function GlitchTextPage() {
             <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
               Hover to glitch
             </h2>
-            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#09090b]">
+            <div className="flex items-center justify-center min-h-[200px] rounded-xl border border-white/[0.06] bg-[#18181b]">
               <GlitchText speed={0.4} enableShadows={true} enableOnHover={true}>
                 HOVER ME
               </GlitchText>
@@ -107,7 +107,7 @@ export default function GlitchTextPage() {
             <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
               Inline (smaller, custom className)
             </h2>
-            <div className="rounded-xl border border-white/[0.06] bg-[#09090b] p-10">
+            <div className="rounded-xl border border-white/[0.06] bg-[#18181b] p-10">
               <div className="text-neutral-400 text-lg leading-relaxed">
                 The system encountered a{" "}
                 <span className="inline-block align-middle">

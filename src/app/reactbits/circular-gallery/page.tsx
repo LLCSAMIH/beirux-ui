@@ -48,7 +48,7 @@ const galleryItems = [
 
 export default function CircularGalleryPage() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+    <div className="relative h-screen w-screen overflow-hidden bg-[#18181b]">
       <BackLink href="/reactbits" label="ReactBits" />
       <div className="absolute inset-0">
         <CircularGallery

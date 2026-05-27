@@ -26,7 +26,7 @@ const components = [
 
 export default function FancyIndex() {
   return (
-    <div className="min-h-screen bg-[#09090b] text-white">
+    <div className="min-h-screen bg-[#18181b] text-white">
       <div className="max-w-4xl mx-auto px-6 py-24">
         <Link href="/" className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors mb-8 inline-block">
           &larr; All Libraries

@@ -6,7 +6,7 @@ import { ArrowRight, Trash2, Star, Plus } from "lucide-react";
 
 export default function CultUIPage() {
   return (
-    <div className="dark min-h-screen bg-[#09090b] text-white">
+    <div className="dark min-h-screen bg-[#18181b] text-white">
       <BackLink href="/cult-ui" label="Cult UI" />
       <div className="max-w-3xl mx-auto px-6 py-24">
         <div className="text-center mb-16">

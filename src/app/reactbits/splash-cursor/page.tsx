@@ -5,7 +5,7 @@ import { BackLink } from "@/components/back-link";
 
 export default function SplashCursorPage() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+    <div className="relative h-screen w-screen overflow-hidden bg-[#18181b]">
       <BackLink href="/reactbits" label="ReactBits" />
       <SplashCursor />
 

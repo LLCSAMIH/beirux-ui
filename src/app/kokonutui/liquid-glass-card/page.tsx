@@ -33,7 +33,7 @@ const features = [
 
 export default function KokonutUIPage() {
   return (
-    <div className="dark min-h-screen bg-[#09090b]">
+    <div className="dark min-h-screen bg-[#18181b]">
       <BackLink href="/kokonutui" label="KokonutUI" />
       <div className="max-w-6xl mx-auto px-6 py-24">
         <div className="mb-16">

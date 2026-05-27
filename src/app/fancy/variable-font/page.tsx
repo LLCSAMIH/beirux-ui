@@ -8,7 +8,7 @@ export default function VariableFontPage() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="min-h-screen w-full bg-[#09090b] flex flex-col">
+    <div className="min-h-screen w-full bg-[#18181b] flex flex-col">
       <BackLink href="/fancy" label="Fancy" />
       <div className="pt-16 pb-8 text-center">
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-3">

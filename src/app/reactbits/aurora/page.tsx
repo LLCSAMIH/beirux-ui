@@ -5,7 +5,7 @@ import { BackLink } from "@/components/back-link";
 
 export default function AuroraPage() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+    <div className="relative h-screen w-screen overflow-hidden bg-[#18181b]">
       <BackLink href="/reactbits" label="ReactBits" />
       <div className="absolute inset-0">
         <Aurora colorStops={["#3A29FF", "#FF94B4", "#FF3232"]} amplitude={1.5} blend={0.5} speed={1.0} />

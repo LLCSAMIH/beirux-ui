@@ -5,7 +5,7 @@ import { BackLink } from "@/components/back-link";
 
 export default function ElasticLinePage() {
   return (
-    <div className="min-h-screen w-full bg-[#09090b]">
+    <div className="min-h-screen w-full bg-[#18181b]">
       <BackLink href="/fancy" label="Fancy" />
 
       <div className="max-w-4xl mx-auto px-6 py-24">

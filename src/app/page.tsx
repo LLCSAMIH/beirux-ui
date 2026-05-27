@@ -9,7 +9,7 @@ const libraries = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#09090b] text-white">
+    <div className="min-h-screen bg-[#18181b] text-white">
       <div className="max-w-5xl mx-auto px-6 py-24">
         <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 mb-4">
           BEIRUX Component Showcase

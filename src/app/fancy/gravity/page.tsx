@@ -18,7 +18,7 @@ const items = [
 
 export default function FancyPage() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+    <div className="relative h-screen w-screen overflow-hidden bg-[#18181b]">
       <BackLink href="/fancy" label="Fancy" />
       <Gravity gravity={{ x: 0, y: 1 }} className="w-full h-full">
         {items.map((item, i) => (

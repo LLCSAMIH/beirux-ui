@@ -5,7 +5,7 @@ import { BackLink } from "@/components/back-link";
 
 export default function ReactBitsPage() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#09090b]">
+    <div className="relative h-screen w-screen overflow-hidden bg-[#18181b]">
       <BackLink href="/reactbits" label="ReactBits" />
       <div className="absolute inset-0">
         <Silk speed={3} scale={1} color="#7B3FE4" noiseIntensity={1.5} rotation={0} />

@@ -12,7 +12,7 @@ const navItems = {
 
 export default function MorphicNavbarPage() {
   return (
-    <div className="dark min-h-screen bg-[#09090b]">
+    <div className="dark min-h-screen bg-[#18181b]">
       <BackLink href="/kokonutui" label="KokonutUI" />
       {/* Navbar pinned to top */}
       <div className="sticky top-0 z-50 pt-4 pb-2">
