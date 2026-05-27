@@ -25,13 +25,13 @@ export default function CultUIPage() {
               Primary
             </h2>
             <div className="flex flex-wrap gap-4">
-              <TextureButton variant="primary" size="sm">
+              <TextureButton variant="primary" size="sm" className="w-fit">
                 Small
               </TextureButton>
-              <TextureButton variant="primary">
+              <TextureButton variant="primary" className="w-fit">
                 Default size
               </TextureButton>
-              <TextureButton variant="primary" size="lg">
+              <TextureButton variant="primary" size="lg" className="w-fit">
                 Large button
               </TextureButton>
             </div>
@@ -43,10 +43,10 @@ export default function CultUIPage() {
               Accent
             </h2>
             <div className="flex flex-wrap gap-4">
-              <TextureButton variant="accent">
+              <TextureButton variant="accent" className="w-fit">
                 Continue <ArrowRight className="h-4 w-4" />
               </TextureButton>
-              <TextureButton variant="accent" size="sm">
+              <TextureButton variant="accent" size="sm" className="w-fit">
                 Save changes
               </TextureButton>
             </div>
@@ -58,10 +58,10 @@ export default function CultUIPage() {
               Destructive
             </h2>
             <div className="flex flex-wrap gap-4">
-              <TextureButton variant="destructive">
+              <TextureButton variant="destructive" className="w-fit">
                 <Trash2 className="h-4 w-4" /> Delete project
               </TextureButton>
-              <TextureButton variant="destructive" size="sm">
+              <TextureButton variant="destructive" size="sm" className="w-fit">
                 Remove
               </TextureButton>
             </div>
@@ -73,10 +73,10 @@ export default function CultUIPage() {
               Secondary
             </h2>
             <div className="flex flex-wrap gap-4">
-              <TextureButton variant="secondary">
+              <TextureButton variant="secondary" className="w-fit">
                 Cancel
               </TextureButton>
-              <TextureButton variant="secondary" size="lg">
+              <TextureButton variant="secondary" size="lg" className="w-fit">
                 Go back
               </TextureButton>
             </div>
@@ -88,10 +88,10 @@ export default function CultUIPage() {
               Minimal
             </h2>
             <div className="flex flex-wrap gap-4">
-              <TextureButton variant="minimal">
+              <TextureButton variant="minimal" className="w-fit">
                 <Star className="h-4 w-4" /> Favorite
               </TextureButton>
-              <TextureButton variant="minimal" size="sm">
+              <TextureButton variant="minimal" size="sm" className="w-fit">
                 Options
               </TextureButton>
             </div>
