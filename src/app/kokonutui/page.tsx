@@ -22,6 +22,13 @@ const components = [
     engine: "Motion",
     description: "Navbar with morphing pill indicator that animates between active items.",
   },
+  {
+    slug: "card-flip",
+    name: "Card Flip",
+    category: "Card",
+    engine: "CSS",
+    description: "3D perspective card flip on hover with front/back faces and styled-jsx keyframe animation.",
+  },
 ];
 
 export default function KokonutUIIndex() {

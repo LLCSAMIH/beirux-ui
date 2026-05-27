@@ -108,7 +108,7 @@ export default function GlitchTextPage() {
               Inline (smaller, custom className)
             </h2>
             <div className="rounded-xl border border-white/[0.06] bg-[#09090b] p-10">
-              <p className="text-neutral-400 text-lg leading-relaxed">
+              <div className="text-neutral-400 text-lg leading-relaxed">
                 The system encountered a{" "}
                 <span className="inline-block align-middle">
                   <GlitchText
@@ -131,7 +131,7 @@ export default function GlitchTextPage() {
                   </GlitchText>
                 </span>{" "}
                 to restore the connection.
-              </p>
+              </div>
             </div>
             <div className="mt-3 flex gap-3">
               <span className="text-xs text-neutral-600 font-mono bg-white/[0.03] px-2 py-1 rounded">className=&quot;!text-2xl !mx-0 inline-block&quot;</span>

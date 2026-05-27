@@ -29,6 +29,13 @@ const components = [
     engine: "WebGL (OGL)",
     description: "3D circular image gallery with drag interaction and curved layout.",
   },
+  {
+    slug: "aurora",
+    name: "Aurora",
+    category: "Background",
+    engine: "WebGL (OGL)",
+    description: "Animated gradient aurora with configurable color stops, amplitude, and speed.",
+  },
 ];
 
 export default function ReactBitsIndex() {

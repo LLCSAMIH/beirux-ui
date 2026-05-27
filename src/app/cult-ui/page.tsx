@@ -15,6 +15,13 @@ const components = [
     engine: "Motion",
     description: "Apple-inspired animated island with 14 size presets and 8 state transitions.",
   },
+  {
+    slug: "direction-aware-tabs",
+    name: "Direction Aware Tabs",
+    category: "Navigation",
+    engine: "Motion",
+    description: "Tabs with direction-aware animated indicator and auto-height content transitions.",
+  },
 ];
 
 export default function CultUIIndex() {

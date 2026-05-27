@@ -15,6 +15,13 @@ const components = [
     engine: "Motion",
     description: "Variable font weight shifts based on cursor distance. Three falloff modes: linear, gaussian, exponential.",
   },
+  {
+    slug: "elastic-line",
+    name: "Elastic Line",
+    category: "Interactive",
+    engine: "Motion",
+    description: "SVG line that grabs and stretches toward the cursor, snapping back with spring physics.",
+  },
 ];
 
 export default function FancyIndex() {
