@@ -43,6 +43,27 @@ const components = [
     engine: "Matter.js",
     description: "Physics bodies orbit an attractor point and repel from the cursor. Configurable force strength and field radius.",
   },
+  {
+    slug: "drag-elements",
+    name: "Drag Elements",
+    category: "Interactive",
+    engine: "Motion",
+    description: "Freely draggable children with elastic constraints, momentum, and z-index stacking on grab.",
+  },
+  {
+    slug: "letter-swap",
+    name: "Letter Swap",
+    category: "Text",
+    engine: "Motion",
+    description: "Per-letter hover animation with staggered spring swap. Forward direction with configurable stagger origin.",
+  },
+  {
+    slug: "box-carousel",
+    name: "Box Carousel",
+    category: "Carousel",
+    engine: "Motion",
+    description: "3D rotating box carousel with drag interaction, auto-play, and configurable perspective/direction.",
+  },
 ];
 
 export default function FancyIndex() {

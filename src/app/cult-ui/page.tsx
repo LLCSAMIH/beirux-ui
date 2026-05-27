@@ -43,6 +43,27 @@ const components = [
     engine: "Motion",
     description: "Animated logo grid with staggered column cycling, spring-based blur transitions, and shuffle distribution.",
   },
+  {
+    slug: "shift-card",
+    name: "Shift Card",
+    category: "Card",
+    engine: "Motion",
+    description: "Hover-to-expand card with animated content shift. Top, middle, and bottom content zones.",
+  },
+  {
+    slug: "text-animate",
+    name: "Text Animate",
+    category: "Text",
+    engine: "Motion",
+    description: "8 animation types: fadeIn, popIn, rollIn, whipIn, and more. Per-letter and per-word modes.",
+  },
+  {
+    slug: "dock",
+    name: "Dock",
+    category: "Navigation",
+    engine: "Motion",
+    description: "macOS-style dock with magnification on hover, draggable dividers, and bounce-on-click.",
+  },
 ];
 
 export default function CultUIIndex() {

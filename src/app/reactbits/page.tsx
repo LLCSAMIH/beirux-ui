@@ -57,6 +57,27 @@ const components = [
     engine: "Motion",
     description: "Perspective tilt on hover with spring physics, cursor tooltip, and optional overlay content.",
   },
+  {
+    slug: "pixel-card",
+    name: "Pixel Card",
+    category: "Card",
+    engine: "Canvas",
+    description: "Shimmer pixel grid background with 4 color presets. Focus/hover triggers animation.",
+  },
+  {
+    slug: "scroll-velocity",
+    name: "Scroll Velocity",
+    category: "Text Animation",
+    engine: "Motion",
+    description: "Horizontal text marquee that accelerates with scroll speed. Alternating row directions.",
+  },
+  {
+    slug: "blob-cursor",
+    name: "Blob Cursor",
+    category: "Cursor",
+    engine: "GSAP",
+    description: "Gooey blob cursor trail with SVG filter. Configurable shape, color, and physics.",
+  },
 ];
 
 export default function ReactBitsIndex() {

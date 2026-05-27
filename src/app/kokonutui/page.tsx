@@ -50,6 +50,27 @@ const components = [
     engine: "Motion",
     description: "Tabbed navigation with spring-animated sliding indicator and directional blur content transitions.",
   },
+  {
+    slug: "ai-loading",
+    name: "AI Loading",
+    category: "AI Pattern",
+    engine: "Motion",
+    description: "Multi-step AI task progress indicator with radial SVG mask, status badges, and streaming log lines.",
+  },
+  {
+    slug: "carousel-cards",
+    name: "Carousel Cards",
+    category: "Carousel",
+    engine: "Motion",
+    description: "Horizontal scroll experience cards with ratings, pricing, and badges. Airbnb-style layout.",
+  },
+  {
+    slug: "mouse-effect-card",
+    name: "Mouse Effect Card",
+    category: "Card",
+    engine: "Motion",
+    description: "Dot grid card where dots repel from the cursor with spring physics. Configurable density and force.",
+  },
 ];
 
 export default function KokonutUIIndex() {
