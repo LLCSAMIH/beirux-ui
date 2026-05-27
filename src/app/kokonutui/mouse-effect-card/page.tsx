@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import MouseEffectCard from "@/components/kokonutui/mouse-effect-card";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Dock from "@/components/Dock";
 import { BackLink } from "@/components/back-link";
 

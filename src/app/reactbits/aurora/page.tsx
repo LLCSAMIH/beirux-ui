@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Aurora from "@/components/Aurora";
 import { BackLink } from "@/components/back-link";
 

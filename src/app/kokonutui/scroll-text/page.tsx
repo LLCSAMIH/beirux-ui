@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ScrollText from "@/components/kokonutui/scroll-text";
 import { BackLink } from "@/components/back-link";
 

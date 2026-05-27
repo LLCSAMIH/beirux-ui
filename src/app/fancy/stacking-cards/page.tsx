@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import StackingCards, {
   StackingCardItem,
 } from "@/components/fancy/blocks/stacking-cards";

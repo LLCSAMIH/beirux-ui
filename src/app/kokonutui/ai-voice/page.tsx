@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AI_Voice from "@/components/kokonutui/ai-voice";
 import { BackLink } from "@/components/back-link";
 

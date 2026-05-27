@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useRef } from "react";
 import BoxCarousel, {
   BoxCarouselRef,

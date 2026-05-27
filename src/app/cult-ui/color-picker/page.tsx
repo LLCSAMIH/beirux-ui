@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+export const dynamic = "force-dynamic";
 
 import { ColorPicker } from "@/components/ui/color-picker"
 import { BackLink } from "@/components/back-link"

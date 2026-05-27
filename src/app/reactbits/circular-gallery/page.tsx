@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CircularGallery from "@/components/CircularGallery";
 import { BackLink } from "@/components/back-link";
 

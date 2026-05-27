@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Plasma from "@/components/Plasma";
 import { BackLink } from "@/components/back-link";
 

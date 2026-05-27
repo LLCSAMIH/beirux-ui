@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AvatarPicker from "@/components/kokonutui/avatar-picker";
 import { BackLink } from "@/components/back-link";
 

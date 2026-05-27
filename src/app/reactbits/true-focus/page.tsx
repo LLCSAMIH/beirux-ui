@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import TrueFocus from "@/components/TrueFocus";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Cubes from "@/components/Cubes";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import V0Button from "@/components/kokonutui/v0-button";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { PixelHeading } from "@/components/ui/pixel-heading-word";
 import { BackLink } from "@/components/back-link";
 

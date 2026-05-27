@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CardFlip from "@/components/kokonutui/card-flip";
 import { BackLink } from "@/components/back-link";
 

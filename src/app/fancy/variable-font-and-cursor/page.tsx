@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useRef } from "react";
 import VariableFontAndCursor from "@/components/fancy/text/variable-font-and-cursor";
 import { BackLink } from "@/components/back-link";
@@ -46,7 +48,6 @@ export default function VariableFontAndCursorPage() {
                   y: { name: "slnt", min: 0, max: -12 },
                 }}
                 className="text-5xl md:text-7xl text-white cursor-crosshair"
-                style={{ fontFamily: "system-ui" }}
               >
                 Move cursor
               </VariableFontAndCursor>
@@ -69,7 +70,6 @@ export default function VariableFontAndCursorPage() {
                   y: { name: "wght", min: 300, max: 700 },
                 }}
                 className="text-5xl md:text-7xl text-emerald-400 cursor-crosshair"
-                style={{ fontFamily: "system-ui" }}
               >
                 BEIRUX
               </VariableFontAndCursor>
@@ -92,7 +92,6 @@ export default function VariableFontAndCursorPage() {
                   y: { name: "slnt", min: 12, max: -12 },
                 }}
                 className="text-5xl md:text-7xl text-amber-400 cursor-crosshair"
-                style={{ fontFamily: "system-ui" }}
               >
                 Typography
               </VariableFontAndCursor>

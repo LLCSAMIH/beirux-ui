@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { Toolbar } from "@/components/kokonutui/toolbar";
 import { BackLink } from "@/components/back-link";
 import { Bold, Italic, Strikethrough, Underline, AlignLeft, AlignCenter, AlignRight } from "lucide-react";

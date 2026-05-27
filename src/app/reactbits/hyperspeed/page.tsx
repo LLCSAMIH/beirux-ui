@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Hyperspeed from "@/components/Hyperspeed/Hyperspeed";
 import { hyperspeedPresets } from "@/components/Hyperspeed/HyperSpeedPresets";
 import { BackLink } from "@/components/back-link";

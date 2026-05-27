@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SlicedText from "@/components/kokonutui/sliced-text";
 import { BackLink } from "@/components/back-link";
 

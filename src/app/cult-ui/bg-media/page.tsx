@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+export const dynamic = "force-dynamic";
 
 import { BackgroundMedia } from "@/components/ui/bg-media"
 import { BackLink } from "@/components/back-link"

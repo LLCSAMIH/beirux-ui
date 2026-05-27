@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { GridScan } from "@/components/GridScan";
 import { BackLink } from "@/components/back-link";
 

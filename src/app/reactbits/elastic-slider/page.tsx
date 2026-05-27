@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ElasticSlider from "@/components/ElasticSlider";
 import { BackLink } from "@/components/back-link";
 

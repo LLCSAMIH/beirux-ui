@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import MatrixText from "@/components/kokonutui/matrix-text";
 import { BackLink } from "@/components/back-link";
 

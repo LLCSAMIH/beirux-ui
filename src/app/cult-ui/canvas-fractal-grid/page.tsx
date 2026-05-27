@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+export const dynamic = "force-dynamic";
 
 import { CanvasFractalGrid } from "@/components/ui/canvas-fractal-grid"
 import { BackLink } from "@/components/back-link"

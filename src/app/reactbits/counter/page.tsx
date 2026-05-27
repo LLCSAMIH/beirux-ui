@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useState } from "react";
 import Counter from "@/components/Counter";
 import { BackLink } from "@/components/back-link";

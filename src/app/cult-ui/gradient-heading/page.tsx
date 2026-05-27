@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { GradientHeading } from "@/components/ui/gradient-heading";
 import { BackLink } from "@/components/back-link";
 

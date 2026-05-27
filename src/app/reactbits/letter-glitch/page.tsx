@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import LetterGlitch from "@/components/LetterGlitch";
 import { BackLink } from "@/components/back-link";
 

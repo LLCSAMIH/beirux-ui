@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import BlobCursor from "@/components/BlobCursor";
 import { BackLink } from "@/components/back-link";
 

@@ -1,7 +1,12 @@
 "use client";
 
-import FaultyTerminal from "@/components/FaultyTerminal";
+import dynamic from "next/dynamic";
 import { BackLink } from "@/components/back-link";
+
+const FaultyTerminal = dynamic(
+  () => import("@/components/FaultyTerminal"),
+  { ssr: false }
+);
 
 export default function FaultyTerminalPage() {
   return (

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useRef } from "react";
 import VariableProximity from "@/components/VariableProximity";
 import { BackLink } from "@/components/back-link";

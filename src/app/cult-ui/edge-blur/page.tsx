@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { EdgeBlur, TopBlur, BottomBlur } from "@/components/ui/edge-blur";
 import { BackLink } from "@/components/back-link";
 

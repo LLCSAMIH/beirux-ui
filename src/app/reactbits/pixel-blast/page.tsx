@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import PixelBlast from "@/components/PixelBlast";
 import { BackLink } from "@/components/back-link";
 

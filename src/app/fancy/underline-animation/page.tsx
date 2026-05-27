@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CenterUnderline from "@/components/fancy/text/underline-center";
 import GoesOutComesInUnderline from "@/components/fancy/text/underline-goes-out-comes-in";
 import { BackLink } from "@/components/back-link";

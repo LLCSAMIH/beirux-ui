@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { TextureOverlay, type TextureType } from "@/components/ui/texture-overlay";
 import { BackLink } from "@/components/back-link";
 

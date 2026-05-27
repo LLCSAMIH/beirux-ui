@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import BubbleMenu from "@/components/BubbleMenu";
 import { BackLink } from "@/components/back-link";
 

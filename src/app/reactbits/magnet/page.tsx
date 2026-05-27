@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Magnet from "@/components/Magnet";
 import { BackLink } from "@/components/back-link";
 

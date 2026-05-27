@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AnimatedPathText from "@/components/fancy/text/text-along-path";
 import { BackLink } from "@/components/back-link";
 

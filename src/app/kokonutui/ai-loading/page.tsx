@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AILoadingState from "@/components/kokonutui/ai-loading";
 import { BackLink } from "@/components/back-link";
 

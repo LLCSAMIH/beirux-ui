@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+export const dynamic = "force-dynamic";
 
 import { BgAnimateButton } from "@/components/ui/bg-animate-button"
 import { BackLink } from "@/components/back-link"

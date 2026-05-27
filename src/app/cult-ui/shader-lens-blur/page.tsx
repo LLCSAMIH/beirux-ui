@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { ShaderLensBlur } from "@/components/ui/shader-lens-blur";
 import { BackLink } from "@/components/back-link";
 

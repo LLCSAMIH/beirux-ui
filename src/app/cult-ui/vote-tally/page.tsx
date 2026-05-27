@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { VoteTally } from "@/components/ui/vote-tally";
 import { BackLink } from "@/components/back-link";
 

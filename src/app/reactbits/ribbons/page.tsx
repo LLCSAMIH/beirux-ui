@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Ribbons from "@/components/Ribbons";
 import { BackLink } from "@/components/back-link";
 

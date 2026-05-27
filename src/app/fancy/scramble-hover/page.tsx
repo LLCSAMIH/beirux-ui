@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ScrambleHover from "@/components/fancy/text/scramble-hover";
 import { BackLink } from "@/components/back-link";
 

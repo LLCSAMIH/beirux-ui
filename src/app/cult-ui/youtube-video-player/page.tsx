@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { YouTubePlayer } from "@/components/ui/youtube-video-player";
 import { BackLink } from "@/components/back-link";
 

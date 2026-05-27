@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import LineWaves from "@/components/LineWaves";
 import { BackLink } from "@/components/back-link";
 

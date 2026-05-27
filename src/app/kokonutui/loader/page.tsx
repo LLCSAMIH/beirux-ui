@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Loader from "@/components/kokonutui/loader";
 import { BackLink } from "@/components/back-link";
 

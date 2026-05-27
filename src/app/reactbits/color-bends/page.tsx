@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ColorBends from "@/components/ColorBends";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import VerticalCutReveal from "@/components/fancy/text/vertical-cut-reveal";
 import { BackLink } from "@/components/back-link";
 

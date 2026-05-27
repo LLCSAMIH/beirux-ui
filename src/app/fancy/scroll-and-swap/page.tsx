@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useRef } from "react";
 import ScrollAndSwapText from "@/components/fancy/text/scroll-and-swap-text";
 import { BackLink } from "@/components/back-link";

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Float from "@/components/fancy/blocks/float";
 import { BackLink } from "@/components/back-link";
 

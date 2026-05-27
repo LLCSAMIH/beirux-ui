@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Ballpit from "@/components/Ballpit";
 import { BackLink } from "@/components/back-link";
 

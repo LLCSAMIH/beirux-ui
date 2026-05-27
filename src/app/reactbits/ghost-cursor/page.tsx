@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import GhostCursor from "@/components/GhostCursor";
 import { BackLink } from "@/components/back-link";
 

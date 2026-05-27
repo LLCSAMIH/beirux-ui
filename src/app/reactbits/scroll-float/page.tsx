@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ScrollFloat from "@/components/ScrollFloat";
 import { BackLink } from "@/components/back-link";
 

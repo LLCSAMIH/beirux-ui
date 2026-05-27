@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CarouselCards from "@/components/kokonutui/carousel-cards";
 import { BackLink } from "@/components/back-link";
 

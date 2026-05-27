@@ -1,7 +1,13 @@
 "use client";
 
-import PixelTransition from "@/components/PixelTransition";
+import dynamic from "next/dynamic";
+
 import { BackLink } from "@/components/back-link";
+
+const PixelTransition = dynamic(
+  () => import("@/components/PixelTransition"),
+  { ssr: false }
+);
 
 export default function PixelTransitionPage() {
   return (

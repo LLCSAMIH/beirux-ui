@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Beams from "@/components/Beams";
 import { BackLink } from "@/components/back-link";
 

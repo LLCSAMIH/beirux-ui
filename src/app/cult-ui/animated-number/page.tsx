@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+export const dynamic = "force-dynamic";
 
 import { AnimatedNumber } from "@/components/ui/animated-number"
 import { BackLink } from "@/components/back-link"

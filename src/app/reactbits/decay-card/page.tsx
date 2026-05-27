@@ -1,7 +1,13 @@
 "use client";
 
-import DecayCard from "@/components/DecayCard";
+import dynamic from "next/dynamic";
+
 import { BackLink } from "@/components/back-link";
+
+const DecayCard = dynamic(
+  () => import("@/components/DecayCard"),
+  { ssr: false }
+);
 
 export default function DecayCardPage() {
   return (

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CircularText from "@/components/CircularText";
 import { BackLink } from "@/components/back-link";
 

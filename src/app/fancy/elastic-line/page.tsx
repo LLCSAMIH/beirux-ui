@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ElasticLine from "@/components/fancy/physics/elastic-line";
 import { BackLink } from "@/components/back-link";
 

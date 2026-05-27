@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { BackLink } from "@/components/back-link";
 import { MetalButton, MetalIconButton } from "@/components/ui/metal-button";
 import { ArrowRight, Star, Plus, Settings } from "lucide-react";

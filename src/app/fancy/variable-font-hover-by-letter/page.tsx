@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import VariableFontHoverByLetter from "@/components/fancy/text/variable-font-hover-by-letter";
 import { BackLink } from "@/components/back-link";
 
@@ -36,7 +38,6 @@ export default function VariableFontHoverByLetterPage() {
                 fromFontVariationSettings="'wght' 400, 'slnt' 0"
                 toFontVariationSettings="'wght' 900, 'slnt' 0"
                 className="text-5xl md:text-7xl text-white cursor-pointer"
-                style={{ fontFamily: "system-ui" }}
               />
             </div>
           </section>
@@ -54,7 +55,6 @@ export default function VariableFontHoverByLetterPage() {
                 staggerFrom="center"
                 staggerDuration={0.04}
                 className="text-5xl md:text-7xl text-emerald-400 cursor-pointer"
-                style={{ fontFamily: "system-ui" }}
               />
             </div>
           </section>
@@ -73,7 +73,6 @@ export default function VariableFontHoverByLetterPage() {
                 staggerDuration={0.05}
                 transition={{ type: "spring", duration: 1.2 }}
                 className="text-5xl md:text-7xl text-amber-400 cursor-pointer"
-                style={{ fontFamily: "system-ui" }}
               />
             </div>
           </section>

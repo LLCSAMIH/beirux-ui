@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import GradientButton from "@/components/kokonutui/gradient-button";
 import { BackLink } from "@/components/back-link";
 

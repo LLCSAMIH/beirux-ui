@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import LiquidEther from "@/components/LiquidEther";
 import { BackLink } from "@/components/back-link";
 

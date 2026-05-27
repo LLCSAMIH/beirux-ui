@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import TweetCard from "@/components/kokonutui/tweet-card";
 import { BackLink } from "@/components/back-link";
 

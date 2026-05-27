@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { GradientButtonGroup } from "@/components/ui/gradient-button-group";
 import { BackLink } from "@/components/back-link";
 

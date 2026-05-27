@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useState, useCallback } from "react";
 import { PollWidget, type PollOption } from "@/components/ui/poll-widget";
 import { BackLink } from "@/components/back-link";

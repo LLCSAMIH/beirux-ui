@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AnimatedGradient from "@/components/fancy/background/animated-gradient-with-svg";
 import { BackLink } from "@/components/back-link";
 

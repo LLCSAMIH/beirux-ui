@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SwooshText from "@/components/kokonutui/swoosh-text";
 import { BackLink } from "@/components/back-link";
 

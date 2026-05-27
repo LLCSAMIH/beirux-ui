@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import DotGrid from "@/components/DotGrid";
 import { BackLink } from "@/components/back-link";
 

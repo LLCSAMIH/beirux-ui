@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { PixelParagraph } from "@/components/ui/pixel-paragraph-words";
 import { BackLink } from "@/components/back-link";
 

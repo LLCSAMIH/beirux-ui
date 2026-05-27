@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import BreathingText from "@/components/fancy/text/breathing-text";
 import { BackLink } from "@/components/back-link";
 

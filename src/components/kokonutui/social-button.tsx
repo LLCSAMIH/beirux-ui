@@ -11,7 +11,7 @@
  */
 
 import type { LucideIcon } from "lucide-react";
-import { Instagram, Link, Linkedin, Twitter } from "lucide-react";
+import { Share2, Link, Globe, Mail } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -31,9 +31,9 @@ interface SocialButtonProps
 }
 
 const DEFAULT_SHARE_ITEMS: ShareItem[] = [
-  { icon: Twitter, label: "Share on Twitter" },
-  { icon: Instagram, label: "Share on Instagram" },
-  { icon: Linkedin, label: "Share on LinkedIn" },
+  { icon: Share2, label: "Share" },
+  { icon: Globe, label: "Share on Web" },
+  { icon: Mail, label: "Share via Email" },
   { icon: Link, label: "Copy link" },
 ];
 

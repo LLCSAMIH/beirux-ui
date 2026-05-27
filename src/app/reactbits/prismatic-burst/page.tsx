@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import PrismaticBurst from "@/components/PrismaticBurst";
 import { BackLink } from "@/components/back-link";
 

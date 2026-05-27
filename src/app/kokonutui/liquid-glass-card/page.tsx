@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { LiquidGlassCard } from "@/components/kokonutui/liquid-glass-card";
 import { BackLink } from "@/components/back-link";
 import { Zap, Shield, Sparkles } from "lucide-react";

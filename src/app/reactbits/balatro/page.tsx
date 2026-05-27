@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Balatro from "@/components/Balatro";
 import { BackLink } from "@/components/back-link";
 

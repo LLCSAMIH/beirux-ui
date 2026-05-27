@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import BentoGrid from "@/components/kokonutui/bento-grid";
 import { BackLink } from "@/components/back-link";
 

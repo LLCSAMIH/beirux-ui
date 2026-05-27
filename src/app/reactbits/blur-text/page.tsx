@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import BlurText from "@/components/BlurText";
 import { BackLink } from "@/components/back-link";
 

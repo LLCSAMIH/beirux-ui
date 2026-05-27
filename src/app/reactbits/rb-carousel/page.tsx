@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Carousel from "@/components/Carousel";
 import { BackLink } from "@/components/back-link";
 

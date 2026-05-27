@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { LogoLoop } from "@/components/LogoLoop";
 import { BackLink } from "@/components/back-link";
 

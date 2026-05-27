@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import FlowingMenu from "@/components/FlowingMenu";
 import { BackLink } from "@/components/back-link";
 

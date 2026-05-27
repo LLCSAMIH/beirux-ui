@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { FamilyButton } from "@/components/ui/family-button";
 import { BackLink } from "@/components/back-link";
 import { Star, Heart, Bookmark } from "lucide-react";

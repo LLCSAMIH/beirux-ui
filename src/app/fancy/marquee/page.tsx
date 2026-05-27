@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SimpleMarquee from "@/components/fancy/blocks/simple-marquee";
 import { BackLink } from "@/components/back-link";
 

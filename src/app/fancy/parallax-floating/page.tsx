@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Floating, {
   FloatingElement,
 } from "@/components/fancy/image/parallax-floating";

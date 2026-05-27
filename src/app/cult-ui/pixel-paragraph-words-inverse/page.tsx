@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { PixelParagraphInverse } from "@/components/ui/pixel-paragraph-words-inverse";
 import { BackLink } from "@/components/back-link";
 

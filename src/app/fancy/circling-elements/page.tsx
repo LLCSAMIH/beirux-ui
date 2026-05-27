@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CirclingElements from "@/components/fancy/blocks/circling-elements";
 import { BackLink } from "@/components/back-link";
 

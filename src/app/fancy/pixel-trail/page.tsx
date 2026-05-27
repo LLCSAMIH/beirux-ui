@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import PixelTrail from "@/components/fancy/background/pixel-trail";
 import { BackLink } from "@/components/back-link";
 

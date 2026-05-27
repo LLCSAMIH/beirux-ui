@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ASCIIText from "@/components/ASCIIText";
 import { BackLink } from "@/components/back-link";
 

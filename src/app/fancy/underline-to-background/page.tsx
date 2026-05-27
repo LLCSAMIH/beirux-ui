@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import UnderlineToBackground from "@/components/fancy/text/underline-to-background";
 import { BackLink } from "@/components/back-link";
 

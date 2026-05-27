@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+export const dynamic = "force-dynamic";
 
 import { DistortedGlass } from "@/components/ui/distorted-glass"
 import { BackLink } from "@/components/back-link"

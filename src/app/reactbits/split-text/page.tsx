@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SplitText from "@/components/SplitText";
 import { BackLink } from "@/components/back-link";
 

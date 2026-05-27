@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import GridDistortion from "@/components/GridDistortion";
 import { BackLink } from "@/components/back-link";
 

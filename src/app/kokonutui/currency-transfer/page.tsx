@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import CurrencyTransfer from "@/components/kokonutui/currency-transfer";
 import { BackLink } from "@/components/back-link";
 

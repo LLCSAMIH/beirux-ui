@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { TweetGrid } from "@/components/ui/tweet-grid";
 import { BackLink } from "@/components/back-link";
 

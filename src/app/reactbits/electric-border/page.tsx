@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ElectricBorder from "@/components/ElectricBorder";
 import { BackLink } from "@/components/back-link";
 

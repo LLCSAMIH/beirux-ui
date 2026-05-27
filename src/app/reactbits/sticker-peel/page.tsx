@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import StickerPeel from "@/components/StickerPeel";
 import { BackLink } from "@/components/back-link";
 

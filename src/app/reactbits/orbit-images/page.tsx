@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import OrbitImages from "@/components/OrbitImages";
 import { BackLink } from "@/components/back-link";
 

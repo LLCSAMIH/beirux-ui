@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ToolbarExpandable from "@/components/ui/toolbar-expandable";
 import { BackLink } from "@/components/back-link";
 import { Code, Palette, Zap } from "lucide-react";

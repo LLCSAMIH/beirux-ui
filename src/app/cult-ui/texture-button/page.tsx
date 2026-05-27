@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { TextureButton } from "@/components/ui/texture-button";
 import { BackLink } from "@/components/back-link";
 import { ArrowRight, Trash2, Star, Plus } from "lucide-react";

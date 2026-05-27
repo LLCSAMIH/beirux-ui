@@ -1,7 +1,13 @@
 "use client";
 
-import GridMotion from "@/components/GridMotion";
+import dynamic from "next/dynamic";
+
 import { BackLink } from "@/components/back-link";
+
+const GridMotion = dynamic(
+  () => import("@/components/GridMotion"),
+  { ssr: false }
+);
 
 export default function GridMotionPage() {
   return (

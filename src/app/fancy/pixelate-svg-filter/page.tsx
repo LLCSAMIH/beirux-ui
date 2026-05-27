@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import PixelateSvgFilter from "@/components/fancy/filter/pixelate-svg-filter";
 import { BackLink } from "@/components/back-link";
 

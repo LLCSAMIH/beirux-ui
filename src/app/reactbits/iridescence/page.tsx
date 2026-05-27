@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Iridescence from "@/components/Iridescence";
 import { BackLink } from "@/components/back-link";
 

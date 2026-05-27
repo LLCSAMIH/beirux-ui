@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SpotlightCards from "@/components/kokonutui/spotlight-cards";
 import { BackLink } from "@/components/back-link";
 import { Brush, Database, Rocket } from "lucide-react";

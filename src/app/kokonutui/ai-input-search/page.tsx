@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AI_Input_Search from "@/components/kokonutui/ai-input-search";
 import { BackLink } from "@/components/back-link";
 

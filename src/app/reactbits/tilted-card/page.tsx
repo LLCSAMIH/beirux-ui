@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import TiltedCard from "@/components/TiltedCard";
 import { BackLink } from "@/components/back-link";
 

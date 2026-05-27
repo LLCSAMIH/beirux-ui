@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Letter3DSwap from "@/components/fancy/text/letter-3d-swap";
 import { BackLink } from "@/components/back-link";
 

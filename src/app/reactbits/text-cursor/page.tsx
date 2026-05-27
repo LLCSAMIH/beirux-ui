@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import TextCursor from "@/components/TextCursor";
 import { BackLink } from "@/components/back-link";
 

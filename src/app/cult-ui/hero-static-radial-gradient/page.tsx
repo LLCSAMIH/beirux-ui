@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { BackLink } from "@/components/back-link";
 import { HeroStaticRadialGradient } from "@/components/ui/hero-static-radial-gradient";
 

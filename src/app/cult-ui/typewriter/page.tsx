@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { Typewriter } from "@/components/ui/typewriter";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { BackLink } from "@/components/back-link";
 import { ShiftCard } from "@/components/ui/shift-card";
 import { motion } from "motion/react";

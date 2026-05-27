@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import AnimatedList from "@/components/AnimatedList";
 import { BackLink } from "@/components/back-link";
 

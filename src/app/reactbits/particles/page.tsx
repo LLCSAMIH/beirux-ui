@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Particles from "@/components/Particles";
 import { BackLink } from "@/components/back-link";
 

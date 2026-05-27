@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import BounceCards from "@/components/BounceCards";
 import { BackLink } from "@/components/back-link";
 

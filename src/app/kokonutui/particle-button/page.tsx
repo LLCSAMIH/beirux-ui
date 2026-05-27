@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ParticleButton from "@/components/kokonutui/particle-button";
 import { BackLink } from "@/components/back-link";
 

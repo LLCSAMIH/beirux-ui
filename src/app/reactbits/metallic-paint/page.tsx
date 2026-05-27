@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import MetallicPaint from "@/components/MetallicPaint";
 import { BackLink } from "@/components/back-link";
 

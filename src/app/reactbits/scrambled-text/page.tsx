@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ScrambledText from "@/components/ScrambledText";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { BackLink } from "@/components/back-link";
 import { FractalDotGrid } from "@/components/ui/bg-animated-fractal-dot-grid";
 

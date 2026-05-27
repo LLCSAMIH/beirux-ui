@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import FileUpload from "@/components/kokonutui/file-upload";
 import { BackLink } from "@/components/back-link";
 

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { BackLink } from "@/components/back-link";
 import { MorphSurface } from "@/components/ui/morph-surface";
 

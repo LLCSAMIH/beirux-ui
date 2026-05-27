@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { TextGif } from "@/components/ui/text-gif";
 import { BackLink } from "@/components/back-link";
 

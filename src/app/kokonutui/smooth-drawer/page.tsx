@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SmoothDrawer from "@/components/kokonutui/smooth-drawer";
 import { BackLink } from "@/components/back-link";
 

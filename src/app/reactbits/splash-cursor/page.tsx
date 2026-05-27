@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SplashCursor from "@/components/SplashCursor";
 import { BackLink } from "@/components/back-link";
 

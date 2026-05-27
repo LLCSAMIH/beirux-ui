@@ -1,7 +1,12 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { BackLink } from "@/components/back-link";
-import { LightBoard } from "@/components/ui/lightboard";
+
+const LightBoard = dynamic(
+  () => import("@/components/ui/lightboard").then((m) => m.LightBoard),
+  { ssr: false }
+);
 
 export default function LightboardPage() {
   return (

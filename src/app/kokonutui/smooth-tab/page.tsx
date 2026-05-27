@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SmoothTab from "@/components/kokonutui/smooth-tab";
 import { BackLink } from "@/components/back-link";
 

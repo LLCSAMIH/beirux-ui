@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import TextPressure from "@/components/TextPressure";
 import { BackLink } from "@/components/back-link";
 

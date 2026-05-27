@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useRef } from "react";
 import VariableFontCursorProximity from "@/components/fancy/text/variable-font-cursor-proximity";
 import { BackLink } from "@/components/back-link";

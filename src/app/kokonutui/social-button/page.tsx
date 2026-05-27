@@ -1,8 +1,10 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SocialButton from "@/components/kokonutui/social-button";
 import { BackLink } from "@/components/back-link";
-import { Github, Mail, Send } from "lucide-react";
+import { Code, Mail, Send } from "lucide-react";
 
 export default function SocialButtonPage() {
   return (
@@ -66,7 +68,7 @@ export default function SocialButtonPage() {
               label="Reach Out"
               items={[
                 { icon: Mail, label: "Email" },
-                { icon: Github, label: "GitHub" },
+                { icon: Code, label: "GitHub" },
                 { icon: Send, label: "Telegram" },
               ]}
             />

@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useRef } from "react";
 import CSSBox, { type CSSBoxRef } from "@/components/fancy/blocks/css-box";
 import { BackLink } from "@/components/back-link";

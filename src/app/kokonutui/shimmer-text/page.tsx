@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ShimmerText from "@/components/kokonutui/shimmer-text";
 import { BackLink } from "@/components/back-link";
 

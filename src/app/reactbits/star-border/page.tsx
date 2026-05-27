@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import StarBorder from "@/components/StarBorder";
 import { BackLink } from "@/components/back-link";
 

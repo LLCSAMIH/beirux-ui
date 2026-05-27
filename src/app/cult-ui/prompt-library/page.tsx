@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { PromptLibraryWidget, type Prompt } from "@/components/ui/prompt-library";
 import { BackLink } from "@/components/back-link";
 

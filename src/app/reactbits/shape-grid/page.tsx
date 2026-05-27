@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ShapeGrid from "@/components/ShapeGrid";
 import { BackLink } from "@/components/back-link";
 

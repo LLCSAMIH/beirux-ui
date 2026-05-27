@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import HoldButton from "@/components/kokonutui/hold-button";
 import { BackLink } from "@/components/back-link";
 

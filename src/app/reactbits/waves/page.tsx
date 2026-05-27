@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Waves from "@/components/Waves";
 import { BackLink } from "@/components/back-link";
 

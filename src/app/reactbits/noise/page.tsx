@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Noise from "@/components/Noise";
 import { BackLink } from "@/components/back-link";
 

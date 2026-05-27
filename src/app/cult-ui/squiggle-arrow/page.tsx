@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SquigglyArrow from "@/components/ui/squiggle-arrow";
 import { BackLink } from "@/components/back-link";
 

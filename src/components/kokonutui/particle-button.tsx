@@ -13,11 +13,10 @@
 import { MousePointerClick } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { type RefObject, useRef, useState } from "react";
-import type { ButtonProps } from "@/components/ui/button";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-interface ParticleButtonProps extends ButtonProps {
+interface ParticleButtonProps extends React.ComponentPropsWithoutRef<typeof Button> {
   onSuccess?: () => void;
   successDuration?: number;
 }

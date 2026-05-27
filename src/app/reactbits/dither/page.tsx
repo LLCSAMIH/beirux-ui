@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import Dither from "@/components/Dither";
 import { BackLink } from "@/components/back-link";
 

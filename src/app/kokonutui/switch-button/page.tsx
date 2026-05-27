@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import SwitchButton from "@/components/kokonutui/switch-button";
 import { BackLink } from "@/components/back-link";
 

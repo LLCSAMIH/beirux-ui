@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import RotatingText from "@/components/RotatingText";
 import { BackLink } from "@/components/back-link";
 

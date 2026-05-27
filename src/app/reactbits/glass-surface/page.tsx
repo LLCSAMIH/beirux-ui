@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import GlassSurface from "@/components/GlassSurface";
 import { BackLink } from "@/components/back-link";
 

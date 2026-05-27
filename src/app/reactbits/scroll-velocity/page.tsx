@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import ScrollVelocity from "@/components/ScrollVelocity";
 import { BackLink } from "@/components/back-link";
 
