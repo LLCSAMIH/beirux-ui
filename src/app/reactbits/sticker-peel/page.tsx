@@ -26,7 +26,7 @@ export default function StickerPeelPage() {
         {/* Sticker playground area */}
         <div className="relative w-full h-[60vh] rounded-xl border border-white/10 bg-[#111] overflow-hidden">
           <StickerPeel
-            imageSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png"
+            imageSrc="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-11.5 -10.232 23 20.463'%3E%3Ccircle r='2.05' fill='%2361dafb'/%3E%3Cg stroke='%2361dafb' fill='none' stroke-width='1'%3E%3Cellipse rx='11' ry='4.2'/%3E%3Cellipse rx='11' ry='4.2' transform='rotate(60)'/%3E%3Cellipse rx='11' ry='4.2' transform='rotate(120)'/%3E%3C/g%3E%3C/svg%3E"
             width={160}
             rotate={15}
             peelBackHoverPct={25}
@@ -38,7 +38,7 @@ export default function StickerPeelPage() {
           />
 
           <StickerPeel
-            imageSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/200px-Typescript_logo_2020.svg.png"
+            imageSrc="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='12' fill='%233178c6'/%3E%3Ctext x='22' y='96' font-size='80' font-weight='bold' fill='white' font-family='Arial'%3ETS%3C/text%3E%3C/svg%3E"
             width={120}
             rotate={-10}
             peelBackHoverPct={30}
@@ -51,7 +51,7 @@ export default function StickerPeelPage() {
           />
 
           <StickerPeel
-            imageSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/200px-Nextjs-logo.svg.png"
+            imageSrc="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='12' fill='%23000'/%3E%3Ctext x='18' y='88' font-size='60' font-weight='bold' fill='white' font-family='Arial'%3EN%3C/text%3E%3C/svg%3E"
             width={140}
             rotate={5}
             peelBackHoverPct={20}

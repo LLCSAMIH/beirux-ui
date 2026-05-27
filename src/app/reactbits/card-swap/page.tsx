@@ -21,58 +21,62 @@ export default function CardSwapPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start justify-items-center">
           {/* Default */}
           <div className="flex flex-col items-center gap-4">
-            <CardSwap
-              width={280}
-              height={360}
-              cardDistance={40}
-              verticalDistance={16}
-              delay={3000}
-              pauseOnHover
-            >
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-600 to-indigo-900">
-                <span className="text-white text-xl font-bold">Card 1</span>
-              </Card>
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-emerald-600 to-emerald-900">
-                <span className="text-white text-xl font-bold">Card 2</span>
-              </Card>
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-rose-600 to-rose-900">
-                <span className="text-white text-xl font-bold">Card 3</span>
-              </Card>
-            </CardSwap>
-            <p className="text-xs text-neutral-500 text-center mt-8">
+            <div className="relative w-[400px] h-[500px] overflow-visible">
+              <CardSwap
+                width={280}
+                height={360}
+                cardDistance={40}
+                verticalDistance={16}
+                delay={3000}
+                pauseOnHover
+              >
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-600 to-indigo-900">
+                  <span className="text-white text-xl font-bold">Card 1</span>
+                </Card>
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-emerald-600 to-emerald-900">
+                  <span className="text-white text-xl font-bold">Card 2</span>
+                </Card>
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-rose-600 to-rose-900">
+                  <span className="text-white text-xl font-bold">Card 3</span>
+                </Card>
+              </CardSwap>
+            </div>
+            <p className="text-xs text-neutral-500 text-center">
               Default (3s delay, pause on hover)
             </p>
           </div>
 
           {/* Elastic with skew */}
           <div className="flex flex-col items-center gap-4">
-            <CardSwap
-              width={280}
-              height={360}
-              cardDistance={30}
-              verticalDistance={12}
-              delay={2000}
-              easing="elastic"
-              skewAmount={4}
-              pauseOnHover
-            >
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-amber-500 to-orange-700">
-                <span className="text-white text-xl font-bold">A</span>
-              </Card>
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-cyan-500 to-blue-700">
-                <span className="text-white text-xl font-bold">B</span>
-              </Card>
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-500 to-fuchsia-700">
-                <span className="text-white text-xl font-bold">C</span>
-              </Card>
-              <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-lime-500 to-green-700">
-                <span className="text-white text-xl font-bold">D</span>
-              </Card>
-            </CardSwap>
-            <p className="text-xs text-neutral-500 text-center mt-8">
+            <div className="relative w-[400px] h-[500px] overflow-visible">
+              <CardSwap
+                width={280}
+                height={360}
+                cardDistance={30}
+                verticalDistance={12}
+                delay={2000}
+                easing="elastic"
+                skewAmount={4}
+                pauseOnHover
+              >
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-amber-500 to-orange-700">
+                  <span className="text-white text-xl font-bold">A</span>
+                </Card>
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-cyan-500 to-blue-700">
+                  <span className="text-white text-xl font-bold">B</span>
+                </Card>
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-500 to-fuchsia-700">
+                  <span className="text-white text-xl font-bold">C</span>
+                </Card>
+                <Card className="w-full h-full flex items-center justify-center bg-gradient-to-br from-lime-500 to-green-700">
+                  <span className="text-white text-xl font-bold">D</span>
+                </Card>
+              </CardSwap>
+            </div>
+            <p className="text-xs text-neutral-500 text-center">
               Elastic easing, 4 cards, skew 4
             </p>
           </div>
