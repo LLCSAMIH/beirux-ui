@@ -9,6 +9,8 @@
   --animate-glitch-before: glitch var(--before-duration) infinite linear alternate-reverse;
   --animate-star-movement-bottom: star-movement-bottom linear infinite alternate;
   --animate-star-movement-top: star-movement-top linear infinite alternate;
+  --animate-circling: circling var(--circling-duration, 10s) linear infinite;
+  --animate-background-gradient: background-gradient;
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -156,6 +158,19 @@
   100% { transform: translate(100%, 0%); opacity: 0; }
 }
 
+@keyframes circling {
+  0% {
+    transform: rotate(calc(var(--circling-offset, 0) * 1deg * var(--circling-direction, 1)))
+      translateX(calc(var(--circling-radius, 100) * 1px))
+      rotate(calc(var(--circling-offset, 0) * -1deg * var(--circling-direction, 1)));
+  }
+  100% {
+    transform: rotate(calc((var(--circling-offset, 0) + 360) * 1deg * var(--circling-direction, 1)))
+      translateX(calc(var(--circling-radius, 100) * 1px))
+      rotate(calc((var(--circling-offset, 0) + 360) * -1deg * var(--circling-direction, 1)));
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -175,4 +190,62 @@
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
+}
+
+@keyframes background-gradient {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(
+      calc(100% * var(--tx-1, 1)),
+      calc(100% * var(--ty-1, 1))
+    );
+  }
+  40% {
+    transform: translate(
+      calc(100% * var(--tx-2, -1)),
+      calc(100% * var(--ty-2, 1))
+    );
+  }
+  60% {
+    transform: translate(
+      calc(100% * var(--tx-3, 1)),
+      calc(100% * var(--ty-3, -1))
+    );
+  }
+  80% {
+    transform: translate(
+      calc(100% * var(--tx-4, -1)),
+      calc(100% * var(--ty-4, -1))
+    );
+  }
+}
+
+@keyframes cosmic-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes cosmic-spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+@utility animate-cosmic-spin {
+  animation: cosmic-spin 3s linear infinite;
+}
+
+@utility animate-cosmic-spin-slow {
+  animation: cosmic-spin-slow 5s linear infinite;
+}
+
+@keyframes gold-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@utility animate-gold-spin {
+  animation: gold-spin 4s linear infinite;
 }

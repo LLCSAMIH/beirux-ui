@@ -105,12 +105,10 @@ const usePerformance = (
   }, [])
 
   useEffect(() => {
-    if (fps < 30 && performance !== "low") {
+    if (fps < 20 && performance !== "low") {
       setPerformance("low")
-    } else if (fps >= 30 && fps < 50 && performance !== "medium") {
+    } else if (fps >= 40 && performance === "low") {
       setPerformance("medium")
-    } else if (fps >= 50 && performance !== "high") {
-      setPerformance("high")
     }
   }, [fps, performance])
 
@@ -261,7 +259,7 @@ const DotCanvas: React.FC<{
       <canvas
         ref={canvasRef}
         className="absolute inset-0 h-full w-full bg-transparent"
-        style={{ mixBlendMode: "multiply" }}
+        style={{ mixBlendMode: "screen" }}
       />
     )
   }

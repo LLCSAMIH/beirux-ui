@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { hostname: "images.unsplash.com" },
+      { hostname: "bykuknqwpctcjrowysyf.supabase.co" },
+      { hostname: "pbs.twimg.com" },
     ],
   },
 };

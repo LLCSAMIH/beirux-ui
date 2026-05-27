@@ -1,97 +1,314 @@
 import Link from "next/link";
 
 const components = [
-  {
-    slug: "texture-button",
-    name: "Texture Button",
-    category: "Button",
-    engine: "CSS",
-    description: "Multi-variant button with layered gradient textures. Primary, accent, destructive, secondary, minimal, icon.",
-  },
-  {
-    slug: "dynamic-island",
-    name: "Dynamic Island",
-    category: "Interactive",
-    engine: "Motion",
-    description: "Apple-inspired animated island with 14 size presets and 8 state transitions.",
-  },
-  {
-    slug: "direction-aware-tabs",
-    name: "Direction Aware Tabs",
-    category: "Navigation",
-    engine: "Motion",
-    description: "Tabs with direction-aware animated indicator and auto-height content transitions.",
-  },
-  {
-    slug: "texture-card",
-    name: "Texture Card",
-    category: "Card",
-    engine: "CSS",
-    description: "Theme-aware card with layered gradient borders and subtle texture depth. Header, content, footer, and separator subcomponents.",
-  },
-  {
-    slug: "typewriter",
-    name: "Typewriter",
-    category: "Text",
-    engine: "Motion",
-    description: "Animated typewriter effect with base text, cycling text arrays, and blinking cursor.",
-  },
-  {
-    slug: "logo-carousel",
-    name: "Logo Carousel",
-    category: "Marketing",
-    engine: "Motion",
-    description: "Animated logo grid with staggered column cycling, spring-based blur transitions, and shuffle distribution.",
-  },
-  {
-    slug: "shift-card",
-    name: "Shift Card",
-    category: "Card",
-    engine: "Motion",
-    description: "Hover-to-expand card with animated content shift. Top, middle, and bottom content zones.",
-  },
-  {
-    slug: "text-animate",
-    name: "Text Animate",
-    category: "Text",
-    engine: "Motion",
-    description: "8 animation types: fadeIn, popIn, rollIn, whipIn, and more. Per-letter and per-word modes.",
-  },
-  {
-    slug: "dock",
-    name: "Dock",
-    category: "Navigation",
-    engine: "Motion",
-    description: "macOS-style dock with magnification on hover, draggable dividers, and bounce-on-click.",
-  },
-  {
-    slug: "three-d-carousel",
-    name: "3D Photo Carousel",
-    category: "Carousel",
-    engine: "Motion",
-    description: "Cylindrical 3D carousel with drag interaction, click-to-expand, and spring physics.",
-  },
-  {
-    slug: "gradient-heading",
-    name: "Gradient Heading",
-    category: "Text",
-    engine: "CSS",
-    description: "Gradient text heading with 4 color variants, 9 sizes, and polymorphic rendering via Radix Slot.",
-  },
-  {
-    slug: "bg-animated-fractal-grid",
-    name: "Animated Fractal Dot Grid",
-    category: "Background",
-    engine: "Canvas",
-    description: "Interactive dot grid with mouse-reactive wave distortion, glow effect, and auto-adjusting performance tiers.",
-  },
-  {
-    slug: "cutout-card",
-    name: "Cutout Card",
-    category: "Card",
-    engine: "Motion",
-    description: "Compound card with SVG quarter-circle cutouts, hover-reveal actions, and staggered content animations.",
-  },
+    {
+      slug: "ai-instructions",
+      name: "AI Instructions",
+    },
+    {
+      slug: "animated-number",
+      name: "Animated Number",
+    },
+    {
+      slug: "bg-animate-button",
+      name: "BG Animate Button",
+    },
+    {
+      slug: "bg-animated-fractal-grid",
+      name: "BG Animated Fractal Grid",
+    },
+    {
+      slug: "bg-animated-gradient",
+      name: "BG Animated Gradient",
+    },
+    {
+      slug: "bg-image-texture",
+      name: "BG Image Texture",
+    },
+    {
+      slug: "bg-media",
+      name: "BG Media",
+    },
+    {
+      slug: "border-beam-button",
+      name: "Border Beam Button",
+    },
+    {
+      slug: "canvas-fractal-grid",
+      name: "Canvas Fractal Grid",
+    },
+    {
+      slug: "choice-poll",
+      name: "Choice Poll",
+    },
+    {
+      slug: "code-block",
+      name: "Code Block",
+    },
+    {
+      slug: "color-picker",
+      name: "Color Picker",
+    },
+    {
+      slug: "cosmic-button",
+      name: "Cosmic Button",
+    },
+    {
+      slug: "cult-popover",
+      name: "Cult Popover",
+    },
+    {
+      slug: "cutout-card",
+      name: "Cutout Card",
+    },
+    {
+      slug: "direction-aware-tabs",
+      name: "Direction Aware Tabs",
+    },
+    {
+      slug: "distorted-glass",
+      name: "Distorted Glass",
+    },
+    {
+      slug: "dither-image",
+      name: "Dither Image",
+    },
+    {
+      slug: "dock",
+      name: "Dock",
+    },
+    {
+      slug: "dynamic-island",
+      name: "Dynamic Island",
+    },
+    {
+      slug: "edge-blur",
+      name: "Edge Blur",
+    },
+    {
+      slug: "expandable",
+      name: "Expandable",
+    },
+    {
+      slug: "expandable-screen",
+      name: "Expandable Screen",
+    },
+    {
+      slug: "family-button",
+      name: "Family Button",
+    },
+    {
+      slug: "family-drawer",
+      name: "Family Drawer",
+    },
+    {
+      slug: "feature-carousel",
+      name: "Feature Carousel",
+    },
+    {
+      slug: "feature-poll",
+      name: "Feature Poll",
+    },
+    {
+      slug: "feature-voting",
+      name: "Feature Voting",
+    },
+    {
+      slug: "floating-panel",
+      name: "Floating Panel",
+    },
+    {
+      slug: "gradient-button-group",
+      name: "Gradient Button Group",
+    },
+    {
+      slug: "gradient-heading",
+      name: "Gradient Heading",
+    },
+    {
+      slug: "grid-beam",
+      name: "Grid Beam",
+    },
+    {
+      slug: "hero-color-panel",
+      name: "Hero Color Panel",
+    },
+    {
+      slug: "hero-dithering",
+      name: "Hero Dithering",
+    },
+    {
+      slug: "hero-heatmap",
+      name: "Hero Heatmap",
+    },
+    {
+      slug: "hero-liquid-metal",
+      name: "Hero Liquid Metal",
+    },
+    {
+      slug: "hero-static-radial-gradient",
+      name: "Hero Static Radial Gradient",
+    },
+    {
+      slug: "hover-video-player",
+      name: "Hover Video Player",
+    },
+    {
+      slug: "intro-disclosure",
+      name: "Intro Disclosure",
+    },
+    {
+      slug: "lightboard",
+      name: "Lightboard",
+    },
+    {
+      slug: "loading-carousel",
+      name: "Loading Carousel",
+    },
+    {
+      slug: "logo-carousel",
+      name: "Logo Carousel",
+    },
+    {
+      slug: "metal-button",
+      name: "Metal Button",
+    },
+    {
+      slug: "minimal-card",
+      name: "Minimal Card",
+    },
+    {
+      slug: "morph-surface",
+      name: "Morph Surface",
+    },
+    {
+      slug: "neumorph-button",
+      name: "Neumorph Button",
+    },
+    {
+      slug: "neumorph-eyebrow",
+      name: "Neumorph Eyebrow",
+    },
+    {
+      slug: "onboarding",
+      name: "Onboarding",
+    },
+    {
+      slug: "pixel-heading-character",
+      name: "Pixel Heading Character",
+    },
+    {
+      slug: "pixel-heading-word",
+      name: "Pixel Heading Word",
+    },
+    {
+      slug: "pixel-paragraph-words",
+      name: "Pixel Paragraph Words",
+    },
+    {
+      slug: "pixel-paragraph-words-inverse",
+      name: "Pixel Paragraph Words Inverse",
+    },
+    {
+      slug: "poll-widget",
+      name: "Poll Widget",
+    },
+    {
+      slug: "popover-form",
+      name: "Popover Form",
+    },
+    {
+      slug: "prompt-library",
+      name: "Prompt Library",
+    },
+    {
+      slug: "shader-lens-blur",
+      name: "Shader Lens Blur",
+    },
+    {
+      slug: "shift-card",
+      name: "Shift Card",
+    },
+    {
+      slug: "side-panel",
+      name: "Side Panel",
+    },
+    {
+      slug: "sortable-list",
+      name: "Sortable List",
+    },
+    {
+      slug: "squiggle-arrow",
+      name: "Squiggle Arrow",
+    },
+    {
+      slug: "stripe-bg-guides",
+      name: "Stripe BG Guides",
+    },
+    {
+      slug: "svg-bands",
+      name: "SVG Bands",
+    },
+    {
+      slug: "svg-shapes",
+      name: "SVG Shapes",
+    },
+    {
+      slug: "svg-shapes-animated",
+      name: "SVG Shapes Animated",
+    },
+    {
+      slug: "terminal-animation",
+      name: "Terminal Animation",
+    },
+    {
+      slug: "text-animate",
+      name: "Text Animate",
+    },
+    {
+      slug: "text-gif",
+      name: "Text Gif",
+    },
+    {
+      slug: "texture-button",
+      name: "Texture Button",
+    },
+    {
+      slug: "texture-card",
+      name: "Texture Card",
+    },
+    {
+      slug: "texture-overlay",
+      name: "Texture Overlay",
+    },
+    {
+      slug: "three-d-carousel",
+      name: "Three D Carousel",
+    },
+    {
+      slug: "timer",
+      name: "Timer",
+    },
+    {
+      slug: "toolbar-expandable",
+      name: "Toolbar Expandable",
+    },
+    {
+      slug: "tweet-grid",
+      name: "Tweet Grid",
+    },
+    {
+      slug: "typewriter",
+      name: "Typewriter",
+    },
+    {
+      slug: "vote-tally",
+      name: "Vote Tally",
+    },
+    {
+      slug: "youtube-video-player",
+      name: "Youtube Video Player",
+    },
 ];
 
 export default function CultUIIndex() {
@@ -107,10 +324,10 @@ export default function CultUIIndex() {
             Cult UI
           </p>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-2">
-            78 components
+            77 components
           </h1>
           <p className="text-neutral-400">
-            Marketing blocks, hero sections, AI/agent patterns. Powered by Motion.
+            Premium animated components. Canvas, WebGL, and Motion-powered.
           </p>
         </div>
 
@@ -121,20 +338,9 @@ export default function CultUIIndex() {
               href={`/cult-ui/${c.slug}`}
               className="group border border-blue-500/10 rounded-xl p-5 transition-all hover:bg-blue-500/[0.04] hover:border-blue-500/20"
             >
-              <div className="flex items-center justify-between mb-1.5">
-                <h2 className="text-lg font-medium text-white group-hover:text-blue-300 transition-colors">
-                  {c.name}
-                </h2>
-                <div className="flex gap-2">
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-neutral-500">
-                    {c.category}
-                  </span>
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-neutral-500">
-                    {c.engine}
-                  </span>
-                </div>
-              </div>
-              <p className="text-sm text-neutral-500">{c.description}</p>
+              <h2 className="text-lg font-medium text-white group-hover:text-blue-300 transition-colors">
+                {c.name}
+              </h2>
             </Link>
           ))}
         </div>

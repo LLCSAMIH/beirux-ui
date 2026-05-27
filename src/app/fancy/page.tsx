@@ -1,90 +1,170 @@
 import Link from "next/link";
 
 const components = [
-  {
-    slug: "gravity",
-    name: "Gravity",
-    category: "Physics",
-    engine: "Matter.js",
-    description: "Physics simulation with configurable gravity, friction, and restitution. Drop anything.",
-  },
-  {
-    slug: "variable-font",
-    name: "Variable Font Cursor Proximity",
-    category: "Text",
-    engine: "Motion",
-    description: "Variable font weight shifts based on cursor distance. Three falloff modes: linear, gaussian, exponential.",
-  },
-  {
-    slug: "elastic-line",
-    name: "Elastic Line",
-    category: "Interactive",
-    engine: "Motion",
-    description: "SVG line that grabs and stretches toward the cursor, snapping back with spring physics.",
-  },
-  {
-    slug: "text-along-path",
-    name: "Text Along Path",
-    category: "Text",
-    engine: "Motion",
-    description: "Animate text flowing along any SVG path. Auto-looping or scroll-driven, with dual-text rendering for seamless closed-path loops.",
-  },
-  {
-    slug: "stacking-cards",
-    name: "Stacking Cards",
-    category: "Blocks",
-    engine: "Motion",
-    description: "Scroll-driven cards that stack with progressive scale reduction, creating layered depth.",
-  },
-  {
-    slug: "cursor-attractor",
-    name: "Cursor Attractor",
-    category: "Physics",
-    engine: "Matter.js",
-    description: "Physics bodies orbit an attractor point and repel from the cursor. Configurable force strength and field radius.",
-  },
-  {
-    slug: "drag-elements",
-    name: "Drag Elements",
-    category: "Interactive",
-    engine: "Motion",
-    description: "Freely draggable children with elastic constraints, momentum, and z-index stacking on grab.",
-  },
-  {
-    slug: "letter-swap",
-    name: "Letter Swap",
-    category: "Text",
-    engine: "Motion",
-    description: "Per-letter hover animation with staggered spring swap. Forward direction with configurable stagger origin.",
-  },
-  {
-    slug: "box-carousel",
-    name: "Box Carousel",
-    category: "Carousel",
-    engine: "Motion",
-    description: "3D rotating box carousel with drag interaction, auto-play, and configurable perspective/direction.",
-  },
-  {
-    slug: "pixel-trail",
-    name: "Pixel Trail",
-    category: "Cursor",
-    engine: "CSS",
-    description: "Grid of pixel dots that light up on mouse move and fade out. Configurable size, color, and fade duration.",
-  },
-  {
-    slug: "circular-text",
-    name: "Circular Text",
-    category: "Text",
-    engine: "Motion",
-    description: "Text arranged in a spinning circle with hover behaviors: speed up, slow down, pause, or go bonkers.",
-  },
-  {
-    slug: "marquee",
-    name: "Marquee",
-    category: "Blocks",
-    engine: "Motion",
-    description: "Infinite scrolling marquee with drag, hover slowdown, scroll-aware direction, and vertical mode.",
-  },
+    {
+      slug: "animated-gradient-with-svg",
+      name: "Animated Gradient With Svg",
+    },
+    {
+      slug: "basic-number-ticker",
+      name: "Basic Number Ticker",
+    },
+    {
+      slug: "box-carousel",
+      name: "Box Carousel",
+    },
+    {
+      slug: "breathing-text",
+      name: "Breathing Text",
+    },
+    {
+      slug: "circling-elements",
+      name: "Circling Elements",
+    },
+    {
+      slug: "circular-text",
+      name: "Circular Text",
+    },
+    {
+      slug: "css-box",
+      name: "CSS Box",
+    },
+    {
+      slug: "cursor-attractor",
+      name: "Cursor Attractor",
+    },
+    {
+      slug: "drag-elements",
+      name: "Drag Elements",
+    },
+    {
+      slug: "elastic-line",
+      name: "Elastic Line",
+    },
+    {
+      slug: "fancy-typewriter",
+      name: "Fancy Typewriter",
+    },
+    {
+      slug: "float",
+      name: "Float",
+    },
+    {
+      slug: "gooey-svg-filter",
+      name: "Gooey SVG Filter",
+    },
+    {
+      slug: "gravity",
+      name: "Gravity",
+    },
+    {
+      slug: "image-trail",
+      name: "Image Trail",
+    },
+    {
+      slug: "letter-3d-swap",
+      name: "Letter 3D Swap",
+    },
+    {
+      slug: "letter-swap",
+      name: "Letter Swap",
+    },
+    {
+      slug: "letter-swap-hover",
+      name: "Letter Swap Hover",
+    },
+    {
+      slug: "marquee",
+      name: "Marquee",
+    },
+    {
+      slug: "marquee-along-svg-path",
+      name: "Marquee Along SVG Path",
+    },
+    {
+      slug: "media-between-text",
+      name: "Media Between Text",
+    },
+    {
+      slug: "parallax-floating",
+      name: "Parallax Floating",
+    },
+    {
+      slug: "pixel-trail",
+      name: "Pixel Trail",
+    },
+    {
+      slug: "pixelate-svg-filter",
+      name: "Pixelate SVG Filter",
+    },
+    {
+      slug: "random-letter-swap-hover",
+      name: "Random Letter Swap Hover",
+    },
+    {
+      slug: "scramble-hover",
+      name: "Scramble Hover",
+    },
+    {
+      slug: "scramble-in",
+      name: "Scramble In",
+    },
+    {
+      slug: "screensaver",
+      name: "Screensaver",
+    },
+    {
+      slug: "scroll-and-swap",
+      name: "Scroll And Swap",
+    },
+    {
+      slug: "stacking-cards",
+      name: "Stacking Cards",
+    },
+    {
+      slug: "text-along-path",
+      name: "Text Along Path",
+    },
+    {
+      slug: "text-cursor-proximity",
+      name: "Text Cursor Proximity",
+    },
+    {
+      slug: "text-highlighter",
+      name: "Text Highlighter",
+    },
+    {
+      slug: "text-rotate",
+      name: "Text Rotate",
+    },
+    {
+      slug: "underline-animation",
+      name: "Underline Animation",
+    },
+    {
+      slug: "underline-to-background",
+      name: "Underline To Background",
+    },
+    {
+      slug: "variable-font",
+      name: "Variable Font",
+    },
+    {
+      slug: "variable-font-and-cursor",
+      name: "Variable Font And Cursor",
+    },
+    {
+      slug: "variable-font-hover-by-letter",
+      name: "Variable Font Hover By Letter",
+    },
+    {
+      slug: "variable-font-hover-by-random-letter",
+      name: "Variable Font Hover By Random Letter",
+    },
+    {
+      slug: "vertical-cut-reveal",
+      name: "Vertical Cut Reveal",
+    },
 ];
 
 export default function FancyIndex() {
@@ -100,10 +180,10 @@ export default function FancyIndex() {
             Fancy Components
           </p>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-2">
-            40+ components
+            41 components
           </h1>
           <p className="text-neutral-400">
-            Physics interactions, SVG path animations, variable fonts. 100% free.
+            Variable fonts, SVG animations, scroll-driven effects. Lightweight and composable.
           </p>
         </div>
 
@@ -114,20 +194,9 @@ export default function FancyIndex() {
               href={`/fancy/${c.slug}`}
               className="group border border-emerald-500/10 rounded-xl p-5 transition-all hover:bg-emerald-500/[0.04] hover:border-emerald-500/20"
             >
-              <div className="flex items-center justify-between mb-1.5">
-                <h2 className="text-lg font-medium text-white group-hover:text-emerald-300 transition-colors">
-                  {c.name}
-                </h2>
-                <div className="flex gap-2">
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-neutral-500">
-                    {c.category}
-                  </span>
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-neutral-500">
-                    {c.engine}
-                  </span>
-                </div>
-              </div>
-              <p className="text-sm text-neutral-500">{c.description}</p>
+              <h2 className="text-lg font-medium text-white group-hover:text-emerald-300 transition-colors">
+                {c.name}
+              </h2>
             </Link>
           ))}
         </div>

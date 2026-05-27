@@ -1,0 +1,84 @@
+"use client";
+
+import AI_Prompt from "@/components/kokonutui/ai-prompt";
+import { BackLink } from "@/components/back-link";
+
+export default function AIPromptPage() {
+  return (
+    <div className="dark min-h-screen bg-[#18181b]">
+      <BackLink href="/kokonutui" label="KokonutUI" />
+
+      <div className="max-w-4xl mx-auto px-6 pt-24 pb-16">
+        <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 mb-4">
+          KokonutUI
+        </p>
+        <h1 className="text-4xl md:text-6xl font-semibold tracking-tight text-white mb-4">
+          AI Prompt
+        </h1>
+        <p className="text-lg text-neutral-400 max-w-2xl mb-6">
+          A polished AI prompt input with model selector dropdown, file
+          attachment, and auto-resizing textarea. Ships with Anthropic, OpenAI,
+          and Gemini model icons baked in.
+        </p>
+        <div className="flex gap-3 text-xs text-neutral-500">
+          <span className="rounded-full border border-neutral-800 px-3 py-1">
+            motion
+          </span>
+          <span className="rounded-full border border-neutral-800 px-3 py-1">
+            dropdown menu
+          </span>
+          <span className="rounded-full border border-neutral-800 px-3 py-1">
+            textarea
+          </span>
+        </div>
+      </div>
+
+      {/* Default demo */}
+      <div className="max-w-4xl mx-auto px-6 pb-16">
+        <section>
+          <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
+            Default
+          </h2>
+          <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-8 flex items-center justify-center">
+            <AI_Prompt />
+          </div>
+        </section>
+      </div>
+
+      {/* Custom placeholder */}
+      <div className="max-w-4xl mx-auto px-6 pb-16">
+        <section>
+          <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
+            Custom Placeholder and Header
+          </h2>
+          <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-8 flex items-center justify-center">
+            <AI_Prompt
+              placeholder="Describe your project idea..."
+              headerText="Build anything with AI"
+              headerAction="Start Free"
+              defaultModel="GPT-5-mini"
+            />
+          </div>
+        </section>
+      </div>
+
+      {/* Custom models */}
+      <div className="max-w-4xl mx-auto px-6 pb-32">
+        <section>
+          <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-neutral-500 mb-8">
+            Custom Model List
+          </h2>
+          <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-8 flex items-center justify-center">
+            <AI_Prompt
+              models={["Claude 4.5 Sonnet", "GPT-5-1", "Gemini 3"]}
+              defaultModel="Claude 4.5 Sonnet"
+              placeholder="Ask me anything..."
+              headerText="Pro models available"
+              headerAction="Upgrade"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}

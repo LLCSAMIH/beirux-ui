@@ -1,0 +1,36 @@
+"use client";
+
+import FloatingLines from "@/components/FloatingLines";
+import { BackLink } from "@/components/back-link";
+
+export default function FloatingLinesPage() {
+  return (
+    <div className="relative h-screen w-screen overflow-hidden bg-[#18181b]">
+      <BackLink href="/reactbits" label="ReactBits" />
+      <div className="absolute inset-0">
+        <FloatingLines
+          enabledWaves={["top", "middle", "bottom"]}
+          lineCount={[6]}
+          lineDistance={[5]}
+          animationSpeed={1}
+          interactive={true}
+          bendRadius={5.0}
+          bendStrength={-0.5}
+          parallax={true}
+          mixBlendMode="screen"
+        />
+      </div>
+
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white mb-3">
+            FloatingLines
+          </h1>
+          <p className="text-sm font-medium tracking-[0.2em] uppercase text-white/50">
+            ReactBits
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
