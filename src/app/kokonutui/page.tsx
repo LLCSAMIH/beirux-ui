@@ -201,9 +201,9 @@ const components = [
 
 export default function KokonutuiIndex() {
   return (
-    <div className="min-h-screen bg-[#18181b] text-white">
+    <div className="min-h-screen bg-[#0a0a0a] text-white">
       <div className="max-w-4xl mx-auto px-6 py-24">
-        <Link href="/" className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors mb-8 inline-block">
+        <Link href="/" className="text-sm text-zinc-500 hover:text-cyan-400 transition-colors mb-8 inline-block">
           &larr; All Libraries
         </Link>
 
@@ -214,7 +214,7 @@ export default function KokonutuiIndex() {
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-2">
             49 components
           </h1>
-          <p className="text-neutral-400">
+          <p className="text-zinc-400">
             AI input patterns, morphing navigation, polished cards. Powered by Motion.
           </p>
         </div>

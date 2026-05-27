@@ -9,17 +9,17 @@ const libraries = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#18181b] text-white">
+    <div className="min-h-screen bg-[#0a0a0a] text-white">
       <div className="max-w-5xl mx-auto px-6 py-24">
-        <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 mb-4">
+        <p className="text-sm font-medium tracking-[0.2em] uppercase text-cyan-400 mb-4">
           BEIRUX Component Showcase
         </p>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight mb-4">
           309+ components.
           <br />
-          <span className="text-neutral-500">Four libraries. One registry.</span>
+          <span className="text-zinc-500">Four libraries. One registry.</span>
         </h1>
-        <p className="text-lg text-neutral-400 max-w-2xl mb-16">
+        <p className="text-lg text-zinc-400 max-w-2xl mb-16">
           Every animated React component available to BEIRUX agents, installed via shadcn CLI, rendered live.
         </p>
 

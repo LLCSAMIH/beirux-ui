@@ -24,27 +24,27 @@ export function ComponentNav({
       {prev ? (
         <Link
           href={`/${library}/${prev}`}
-          className="text-sm text-neutral-500 hover:text-white transition-colors bg-black/60 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/10"
+          className="text-sm text-zinc-500 hover:text-cyan-400 transition-colors bg-black/60 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-zinc-800"
         >
           &larr; Prev
         </Link>
       ) : (
-        <span className="text-sm text-neutral-700 bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/5 cursor-default">
+        <span className="text-sm text-zinc-700 bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-zinc-800/50 cursor-default">
           &larr; Prev
         </span>
       )}
-      <span className="text-xs text-neutral-600 tabular-nums px-1">
+      <span className="text-xs text-zinc-600 tabular-nums px-1">
         {idx + 1}/{list.length}
       </span>
       {next ? (
         <Link
           href={`/${library}/${next}`}
-          className="text-sm text-neutral-500 hover:text-white transition-colors bg-black/60 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/10"
+          className="text-sm text-zinc-500 hover:text-cyan-400 transition-colors bg-black/60 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-zinc-800"
         >
           Next &rarr;
         </Link>
       ) : (
-        <span className="text-sm text-neutral-700 bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/5 cursor-default">
+        <span className="text-sm text-zinc-700 bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-zinc-800/50 cursor-default">
           Next &rarr;
         </span>
       )}
