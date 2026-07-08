@@ -78,4 +78,12 @@ export const componentLists: Record<string, string[]> = {
     "spotlight-cards", "submit-button", "switch-button", "swoosh-text",
     "team-selector", "toolbar", "tweet-card", "v0-button",
   ],
+  "paper-shaders": [
+    "color-panels", "dithering", "dot-grid", "dot-orbit", "fluted-glass",
+    "gem-smoke", "god-rays", "grain-gradient", "halftone-cmyk", "halftone-dots",
+    "heatmap", "image-dithering", "liquid-metal", "mesh-gradient", "metaballs",
+    "neuro-noise", "paper-texture", "perlin-noise", "pulsing-border",
+    "simplex-noise", "smoke-ring", "spiral", "static-mesh-gradient",
+    "static-radial-gradient", "swirl", "voronoi", "warp", "water", "waves",
+  ],
 };
