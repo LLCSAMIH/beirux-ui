@@ -1,0 +1,21 @@
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: America/New_York
+    open-pull-requests-limit: 3
+    labels:
+      - dependencies
+      - auto-security
+    groups:
+      all-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
